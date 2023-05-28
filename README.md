@@ -3,29 +3,25 @@
 ## Simply clone the repository and run the server:
 ```sh
 # Install Git First // (Else You Can Download And Upload to Your Local Server)
-$ git clone https://github.com/akkupy/Z-Vote.git
+$ git clone https://github.com/nitwit45/collegeVotingSystem.git
 
 # Open Git Cloned File
-$ cd Z-Vote
-
-# Config Virtual Env (Skip is already Done.)
-$ virtualenv -p /usr/bin/python3 venv
-$ . ./venv/bin/activate
+$ cd collegeVotingSystem
 
 # Install All Requirements.
-$ pip(3) install -r requirements.txt
+$ pip install -r requirements.txt
 
 # Run makemigrations and migrate command.
-$ python(3) manage.py makemigrations poll
-$ python(3) manage.py migrate
+$ python manage.py makemigrations poll
+$ python manage.py migrate
 
 # Create a Superuser.
-$ python(3) manage.py createsuperuser
+$ python manage.py createsuperuser
 
 # Create a .env file(See Below for more details.)
 
 # Start Server
-$ python(3) manage.py runserver 0.0.0.0:80
+$ python manage.py runserver 0.0.0.0:80
 # Head over to http://127.0.0.1/ to see the website.
 
 # Head over to http://127.0.0.1/admin to add the voterlists in 'Voter lists' table and the candidates in the 'Candidates' table.
