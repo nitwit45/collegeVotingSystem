@@ -1,23 +1,31 @@
+# Self-hosting(Development Server)
+
+## Simply clone the repository and run the server:
+```sh
 # Install Git First // (Else You Can Download And Upload to Your Local Server)
- git clone https://github.com/akkupy/Z-Vote.git
+$ git clone https://github.com/akkupy/Z-Vote.git
 
 # Open Git Cloned File
- cd Z-Vote
+$ cd Z-Vote
+
+# Config Virtual Env (Skip is already Done.)
+$ virtualenv -p /usr/bin/python3 venv
+$ . ./venv/bin/activate
 
 # Install All Requirements.
- pip install -r requirements.txt
+$ pip(3) install -r requirements.txt
 
 # Run makemigrations and migrate command.
- python manage.py makemigrations poll
- python manage.py migrate
+$ python(3) manage.py makemigrations poll
+$ python(3) manage.py migrate
 
-# Create a Superuser. - Django Admin Account
- python manage.py createsuperuser
+# Create a Superuser.
+$ python(3) manage.py createsuperuser
 
 # Create a .env file(See Below for more details.)
 
 # Start Server
- python manage.py runserver 0.0.0.0:80
+$ python(3) manage.py runserver 0.0.0.0:80
 # Head over to http://127.0.0.1/ to see the website.
 
 # Head over to http://127.0.0.1/admin to add the voterlists in 'Voter lists' table and the candidates in the 'Candidates' table.
@@ -25,6 +33,7 @@
 # Set the Voting Time in 'Vote auths' table(Create only one object and add the start and end time of voting).
 
 # Now the project is ready for Voting!
+```
 
 # Environment Variables
 
