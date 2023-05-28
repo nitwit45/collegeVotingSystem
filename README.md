@@ -51,8 +51,8 @@ Fill the .env file with the obtained values.
 
 ## An Example Of ".env" File
 ```
-API_NINJA_API = '/ghjf53spoG657vghjygdr0qw==uRVWERV'
-TWILIO_ACCOUNT_SID = 'AA3w5fgdrfawd3459faedw4349a3b'
-TWILIO_AUTH_TOKEN = 'awd18f3ccac7329thfsf43fd4drgx1'
-TWILIO_PHONE_NUMBER = '+134656544'
+API_NINJA_API = 'tzRyqxI3sVWjv6OebqvLZfKK9PSiWiizAltsaBZ4'
+TWILIO_ACCOUNT_SID = 'ACf8b73bb885976702140fd70550c5c03b'
+TWILIO_AUTH_TOKEN = 'd76ce0915061db11bbdae8c7421da1e7'
+TWILIO_PHONE_NUMBER = '+13157123208'
 ```
