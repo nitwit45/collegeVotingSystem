@@ -1,4 +1,4 @@
-# Self-hosting(Development Server)
+# Self-hosted
 
 ## Simply clone the repository and run the server:
 ```sh
