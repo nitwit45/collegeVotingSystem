@@ -24,11 +24,11 @@ $ python manage.py createsuperuser
 $ python manage.py runserver 0.0.0.0:80
 # Head over to http://127.0.0.1/ to see the website.
 
- Head over to http://127.0.0.1/admin to add the voterlists in 'Voter lists' table and the candidates in the 'Candidates' table.
+##Head over to http://127.0.0.1/admin to add the voterlists in 'Voter lists' table and the candidates in the 'Candidates' table.
 
- Set the Voting Time in 'Vote auths' table(Create only one object and add the start and end time of voting).
+##Set the Voting Time in 'Vote auths' table(Create only one object and add the start and end time of voting).
 
- Now the project is ready for Voting!
+##Now the project is ready for Voting!
 ```
 
 # Environment Variables
